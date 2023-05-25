@@ -4,12 +4,10 @@
  * @param {HeroProps}
  */
 const Hero = ({ slice }) => {
+  console.log(slice);
   return (
-    <section
-      data-slice-type={slice.slice_type}
-      data-slice-variation={slice.variation}
-    >
-      Placeholder component for hero (variation: {slice.variation}) Slices
+    <section data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+      warawara (variation: {slice.variation}) Slices
     </section>
   );
 };

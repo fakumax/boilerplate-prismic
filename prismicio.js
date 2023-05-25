@@ -1,6 +1,6 @@
-import * as prismic from "@prismicio/client";
-import * as prismicNext from "@prismicio/next";
-import config from "./slicemachine.config.json";
+import * as prismic from '@prismicio/client';
+import * as prismicNext from '@prismicio/next';
+import config from './slicemachine.config.json';
 
 /**
  * The project's Prismic repository name.
@@ -18,12 +18,13 @@ export const repositoryName = config.repositoryName;
 // TODO: Update the routes array to match your project's route structure.
 const routes = [
   {
-    type: "homepage",
-    path: "/",
+    type: 'page',
+    uid: 'home',
+    path: '/',
   },
   {
-    type: "page",
-    path: "/:uid",
+    type: 'page',
+    path: '/:uid',
   },
 ];
 
