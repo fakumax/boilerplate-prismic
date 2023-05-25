@@ -1,0 +1,18 @@
+{
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "imagelogo": {
+        "type": "Image",
+        "config": { "label": "ImageLogo", "constraint": {}, "thumbnails": [] }
+      },
+      "linklogo": {
+        "type": "Link",
+        "config": { "label": "LinkLogo", "placeholder": "", "select": null }
+      }
+    }
+  }
+}
