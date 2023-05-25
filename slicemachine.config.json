@@ -1,5 +1,5 @@
 {
-  "repositoryName": "singletest",
+  "repositoryName": "boilerplate",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./slices"]
 }
