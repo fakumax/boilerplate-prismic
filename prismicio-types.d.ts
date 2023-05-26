@@ -103,6 +103,16 @@ interface HeroSliceDefaultPrimary {
    *
    */
   image: prismic.ImageField<never>;
+  /**
+   * tawaara field in *Hero → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.tawaara
+   * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
+   *
+   */
+  tawaara: prismic.RichTextField;
 }
 /**
  * Default variation for Hero Slice

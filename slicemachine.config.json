@@ -1,5 +1,5 @@
 {
-  "repositoryName": "boilerplate",
+  "repositoryName": "pleasant-strudel-lovyq2",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./slices"]
 }
